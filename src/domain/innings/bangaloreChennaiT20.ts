@@ -1,0 +1,86 @@
+import {Inning} from '.';
+
+const bangaloreChennaiT20 = (): Inning => ({
+  team1: 'Bangalore',
+  team2: 'Chennai',
+  maxOvers: 20,
+  overs: 16,
+  score: 140,
+  target: 180,
+  wickets: 7,
+  end: false,
+  yetToBat: [
+    {
+      id: 1003,
+      name: 'R Rumrah',
+      score: 0,
+      balls: 0,
+      strikerEnd: false,
+      probability: {
+        dot: 0.2,
+        single: 0.3,
+        double: 0.15,
+        triple: 0.05,
+        four: 0.05,
+        five: 0.01,
+        six: 0.04,
+        wicket: 0.1,
+      },
+    },
+    {
+      id: 1004,
+      name: 'Shashi Henra',
+      score: 0,
+      balls: 0,
+      strikerEnd: false,
+      probability: {
+        dot: 0.1,
+        single: 0.4,
+        double: 0.2,
+        triple: 0.05,
+        four: 0.1,
+        five: 0.01,
+        six: 0.04,
+        wicket: 0.1,
+      },
+    },
+  ],
+  currentlyBatting: [
+    {
+      id: 1001,
+      name: 'Kirat Boli',
+      score: 0,
+      balls: 0,
+      strikerEnd: true,
+      probability: {
+        dot: 0.05,
+        single: 0.3,
+        double: 0.25,
+        triple: 0.1,
+        four: 0.15,
+        five: 0.01,
+        six: 0.09,
+        wicket: 0.05,
+      },
+    },
+    {
+      id: 1002,
+      name: 'N.S Nodhi',
+      score: 0,
+      balls: 0,
+      strikerEnd: false,
+      probability: {
+        dot: 0.1,
+        single: 0.4,
+        double: 0.2,
+        triple: 0.05,
+        four: 0.1,
+        five: 0.01,
+        six: 0.04,
+        wicket: 0.1,
+      },
+    },
+  ],
+});
+
+export default bangaloreChennaiT20;

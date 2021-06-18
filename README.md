@@ -13,6 +13,7 @@ The main purpose of creating this project is to showcase how we can follow a `MV
 - Various `HOCs` & `HOFs` for containing common code and maintaining reusability `eg: withScreen | withPureScreen | withViewModelReducer`
 
 ### TODO
+- Using Rest APIs for fetching data for app.
 - Typescript Refactoring around action creator & reducer HOFs.
 - Need to write unit test cases.
 
